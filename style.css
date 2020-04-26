@@ -1,6 +1,35 @@
 body{
-    background-color: red;
+    background-color: white;
 }
 h1{
     text-align:center;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    max-width:100%;
+
+}
+
+.content1{
+    background-color: blue;
+    height:auto;
+    width:30%;
+    max-width:30%;
+}
+
+.content2{
+    background-color: yellow;
+    height:auto;
+    width:30%;
+    max-width:30%;
+}
+
+.content3{
+    background-color: orange;
+    height:auto;
+    width:30%;
+    max-width:30%;
 }
